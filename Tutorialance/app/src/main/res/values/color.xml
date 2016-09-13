@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="window_background">#FFF5F5F5</color>
+    <color name="prev">#7ac043</color>
+    <color name="hint">#089e78</color>
+    <color name="skip">#02acd0</color>
+    <color name="close">#672d91</color>
+    <color name="green">#7ac043</color>
+    <color name="red">#be202f</color>
+    <color name="orange">#f26422</color>
+    <color name="gray">#f2f2f2</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+
+    <array name="color_array">
+        <item>@drawable/one</item>
+        <item>@drawable/two</item>
+        <item>@drawable/three</item>
+        <item>@drawable/four</item>
+        <item>@drawable/fifth</item>
+        <item>@drawable/six</item>
+    </array>
+
+    <color name="white_click">#C7C7C7</color>
+    <color name="hint_color">#D8D8D8</color>
+    <color name="circle_background">#fff2f2f2</color>
+    <color name="line_background">#ffcccccc</color>
+    <color name="done_text_color_normal">#ff333333</color>
+    <color name="gray_light">#ffcccccc</color>
+    <color name="blue">#ff33b5e5</color>
+    <color name="darker_blue">#ff0099cc</color>
+    <color name="date_picker_text_normal">#ff999999</color>
+    <color name="calendar_header">#ff999999</color>
+    <color name="date_picker_view_animator">#fff2f2f2</color>
+    <color name="text">#051a37</color>
+    <color name="ampm_text_color">#8c8c8c</color>
+    <color name="numbers_text_color">#8c8c8c</color>
+
+    <color name="transparent_black">#7F000000</color>
+    <color name="transparent_">#CCFF0000</color>
+
+    <color name="orange_text">#FF6A0C</color>
+    <color name="light_orange">#FF971F</color>
+
+
+    <color name="red_dark">#ff0000</color>
+    <color name="blue_dark">#093759</color>
+    <color name="blue_color">#1471ac</color>
+
+    <color name="tc">#2E2EFE</color>
+    <color name="red_light">#ff6145</color>
+    <color name="track_color2">#4d4837</color>
+    <color name="track_color">#839daa</color>
+    <color name="progress_color">#fd7400</color>
+    <color name="title_color">#0fc6cc</color>
+    <color name="heading">#5d62ba</color>
+    <color name="baby_heading">#ff769f</color>
+    <color name="baby_name">#ff3399</color>
+    <color name="mother_name">#00cccc</color>
+    <color name="cancel_color">#fcb100</color>
+    <color name="save_color">#17C6CC</color>
+
+
+    <color name="indigo_500">#3f51b5</color>
+    <color name="h">#5323AA</color>
+    <color name="indigo_700">#303f9f</color>
+    <color name="cyan_500">#00bcd4</color>
+    <color name="float_transparent">#00000000</color>
+    <color name="sweet_dialog_bg_color">#FFFFFF</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="gray_btn_bg_color">#D0D0D0</color>
+    <color name="gray_btn_bg_pressed_color">#B6B6B6</color>
+    <color name="blue_btn_bg_color">#AEDEF4</color>
+    <color name="blue_btn_bg_pressed_color">#96BFD2</color>
+    <color name="red_btn_bg_color">#DD6B55</color>
+    <color name="red_btn_bg_pressed_color">#CD5B55</color>
+    <color name="error_stroke_color">#F27474</color>
+    <color name="success_stroke_color">#A5DC86</color>
+    <color name="trans_success_stroke_color">#33A5DC86</color>
+    <color name="warning_stroke_color">#F8BB86</color>
+    <color name="text_color">#575757</color>
+    <color name="material_blue_grey_80">#ff37474f</color>
+    <color name="material_blue_grey_90">#ff263238</color>
+    <color name="material_blue_grey_95">#ff21272b</color>
+    <color name="material_deep_teal_20">#ff80cbc4</color>
+    <color name="material_deep_teal_50">#ff009688</color>
+</resources>

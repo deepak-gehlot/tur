@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <include layout="@layout/title2"
+        android:id="@+id/title"></include>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/top"
+android:layout_below="@+id/title"
+        >
+
+        <RadioGroup
+            android:id="@+id/radio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            android:orientation="horizontal"
+            android:padding="15dp">
+
+            <RadioButton
+                android:id="@+id/feedback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Feedback"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/request"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Advice"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+    <tutorialance.widevision.com.tutorialance.model.CustomEDITTEXT
+        android:id="@+id/contentTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:gravity="top"
+        android:layout_below="@+id/top"
+        android:layout_above="@+id/submitBtn1"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:padding="15dp"></tutorialance.widevision.com.tutorialance.model.CustomEDITTEXT>
+
+
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:id="@+id/submitBtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:mrl_rippleAlpha="0.2"
+        app:mrl_rippleColor="#7F000000"
+        app:mrl_rippleDelayClick="true"
+        app:mrl_rippleHover="true"
+        app:mrl_rippleOverlay="true"
+        android:layout_margin="20dp"
+        app:mrl_rippleRoundedCorners="20dp"
+      >
+    <tutorialance.widevision.com.tutorialance.model.CustomButtom
+        android:id="@+id/submitBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_gradient"
+        android:text="Submit"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#ffffff"
+        android:textSize="18sp"/></com.balysv.materialripple.MaterialRippleLayout>
+
+</RelativeLayout>

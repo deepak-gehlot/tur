@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#00000000"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical">
+
+        <RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/title_menu"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            app:layout_scrollFlags="scroll|enterAlways|snap">
+
+            <tutorialance.widevision.com.tutorialance.model.CustomTextView
+                android:id="@+id/text_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/menu1"
+                android:text="Settings"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:id="@+id/menu1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                app:mrl_rippleAlpha="0.2"
+                app:mrl_rippleColor="#7F000000"
+                app:mrl_rippleDelayClick="true"
+                app:mrl_rippleHover="true"
+                app:mrl_rippleOverlay="true"
+                app:mrl_rippleRoundedCorners="@dimen/ripple_corner">
+
+            <ImageView
+                android:id="@+id/menu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/crosblue"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp"/></com.balysv.materialripple.MaterialRippleLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title_menu"
+            android:background="@color/gray"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <tutorialance.widevision.com.tutorialance.model.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sound Effect"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                app:mrl_rippleAlpha="0.2"
+                app:mrl_rippleColor="#7F000000"
+                app:mrl_rippleDelayClick="true"
+                app:mrl_rippleHover="true"
+                android:layout_marginTop="15dp"
+                app:mrl_rippleOverlay="true"
+                app:mrl_rippleRoundedCorners="@dimen/ripple_corner">
+            <ImageView
+                android:id="@+id/on_off"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/aroundoff" />
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="15dp"
+                android:background="#000000"></View>
+
+            <tutorialance.widevision.com.tutorialance.model.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Reset Progress Meter"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                app:mrl_rippleAlpha="0.2"
+                app:mrl_rippleColor="#7F000000"
+                app:mrl_rippleDelayClick="true"
+                app:mrl_rippleHover="true"
+                android:layout_marginTop="15dp"
+                app:mrl_rippleOverlay="true"
+                app:mrl_rippleRoundedCorners="30dp">
+            <ImageView
+                android:id="@+id/reset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/resetmetericon" /></com.balysv.materialripple.MaterialRippleLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="15dp"
+                android:background="#000000"></View>
+
+            <tutorialance.widevision.com.tutorialance.model.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Report A Bug"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                app:mrl_rippleAlpha="0.2"
+                app:mrl_rippleColor="#7F000000"
+                app:mrl_rippleDelayClick="true"
+                app:mrl_rippleHover="true"
+                android:layout_marginTop="15dp"
+                app:mrl_rippleOverlay="true"
+                app:mrl_rippleRoundedCorners="30dp">
+            <ImageView
+                android:id="@+id/reporBug"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/bugicon" />
+</com.balysv.materialripple.MaterialRippleLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="15dp"
+                android:background="#000000"></View>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
